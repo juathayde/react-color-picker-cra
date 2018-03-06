@@ -28,12 +28,12 @@ function LabeledSlider(props) {
         onChange={event => props.valueChange(event.target.value)}
       />
       <input
-      id = "number"
-      type = "number"
-      min = "0"
-      max = "255"
-      value ={props.value}
-      onChange={event => props.valueChange(event.target.value)}
+        id="number"
+        type="number"
+        min="0"
+        max="255"
+        value={props.value}
+        onChange={event => props.valueChange(event.target.value)}
       />
     </div>
   );

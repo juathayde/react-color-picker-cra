@@ -29,4 +29,4 @@ it('Updates background color', () => {
 
   // The color box background should be set to numeric values
   expect(colorPicker.find(ColorBox)).toHaveStyleRule('background', 'rgb(50,50,50)');
-  });
+});
